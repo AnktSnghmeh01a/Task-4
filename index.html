@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime vedio clone</title>
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <div class="top-portion-navbar">
+
+
+      <h1 class="prime-vedio-heading">prime video </h1>
+
+      <div class="top-navbar-middle-portion">
+
+        <!-- home link -->
+        <div class="home-portion">
+
+          <div class="home-portion-text-and-arrw">
+            <a href="" class="navbar-link">Home</a>
+            <i class="fa-solid fa-chevron-down home-topdown"></i>
+          </div>
+
+          <div class="home-portion-top-down-element
+           top-down-elements">
+            <p>All</p>
+            <p>Movies</p>
+            <p>TV shows</p>
+          </div>
+        </div>
+
+        <!-- store link  -->
+        <div class="store-portion">
+          <div class="store-portion-text-and-arrw"><a href="" class="navbar-link">Store</a>
+            <i class="fa-solid fa-chevron-down store-topdown"></i>
+
+          </div>
+
+
+          <div class="store-portion-top-down-element top-down-elements">
+            <p>All</p>
+            <p>Rent</p>
+            <p>Channels</p>
+          </div>
+        </div>
+
+
+        <!-- live TV -->
+        <div class="live-portion">
+          <a href="" class="navbar-link">
+            Live TV
+          </a>
+
+        </div>
+
+
+        <!-- Categories -->
+        <div class="category-portion">
+
+          <div class="category-portion-text-and-arrw">
+
+            <a href="" class="navbar-link">
+              Category
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+
+
+        </div>
+
+
+        <!-- add search and cross -->
+        <div class="addSearchBarAndRemove">
+          <i class="fa-solid fa-magnifying-glass search-items-upper-navbar-icon"></i>
+        </div>
+
+        <!-- subscribe  -->
+        <div class="subscribe">
+          <a href="" class="navbar-link">
+            Subscribe
+          </a>
+
+        </div>
+
+        <!-- languages -->
+        <div class="languages">
+          <a href="" class="navbar-link">EN</a>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <!-- profile -->
+        <div class="profile-photo">
+          <img src="./asserts/profile.jpg" alt="profile-image">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- bottom search  -->
+    <div class="bottom-portion-navbar">
+      <i class="fa-solid fa-magnifying-glass "></i>
+      <input type="search" placeholder="Search" class="search-bar" oninput="searchMovies()">
+
+    </div>
+
+     <!-- differnt-languages div -->
+  <div class="different-languages">
+    <!-- 1st column -->
+    <div class="different-languages-first-div different-languages-divs">
+      <p> English</p>
+      <p>Español</p>
+      <p>Français</p>
+      <p>Deutsch</p>
+      <p>Italiano</p>
+      <p>Português</p>
+      <p>日本語</p>
+      <p>हिन्दी</p>
+    </div>
+
+    <!-- 2nd column -->
+    <div class="different-languages-second-div different-languages-divs">
+      <p> English</p>
+      <p>Español</p>
+      <p>Français</p>
+      <p>Deutsch</p>
+      <p>Italiano</p>
+      <p>Português</p>
+      <p>日本語</p>
+      <p>हिन्दी</p>
+    </div>
+
+
+    <!-- third column -->
+    <div class="different-languages-third-div different-languages-divs">
+      <p> English</p>
+      <p>Español</p>
+      <p>Français</p>
+      <p>Deutsch</p>
+      <p>Italiano</p>
+      <p>Português</p>
+      <p>日本語</p>
+      <p>हिन्दी</p>
+    </div>
+
+
+    <!-- fourth column -->
+    <div class="different-languages-fourth-div different-languages-divs">
+      <p> English</p>
+      <p>Español</p>
+      <p>Français</p>
+      <p>Deutsch</p>
+      <p>Italiano</p>
+      <p>Português</p>
+      <p>日本語</p>
+      <p>हिन्दी</p>
+    </div>
+
+
+
+  </div>
+
+  <!-- category div -->
+
+
+  <div class="category-div">
+    <!-- 1st column -->
+  <div class="genres-div">
+    <div class="genres-column1 collection-para-styles">
+      <p>Action and adventure</p>
+      <p>Comedy</p>
+      <p>Anime</p>
+      <p>Documentary</p>
+      <p>Drama</p>
+      <p>Fantasy</p>
+    </div>
+
+    <div class="genres-column2 collection-para-styles">
+      <p>Horror</p>
+      <p>Kids</p>
+      <p>Mystery and thriller</p>
+      <p>Romance</p>
+      <p>Science fiction</p>
+    </div>
+
+  </div>
+
+  <!-- 2nd column -->
+   <div class="featured-collection-div">
+     <div class="featured-collection-column1 collection-para-styles">
+      <p>Hindi</p>
+       <p>English</p>
+       <p>Telegu</p>
+       <p>Tamil</p>
+       <p>Malyalam</p>
+    </div>
+    <div class="featured-collection-column2 collection-para-styles">
+      <p>Kannad</p>
+      <p>Marathi</p>
+      <p>Punjabi</p>
+      <p>Gujrati</p>
+      <p>Bengali</p>
+    </div>
+   </div>
+  </div>
+  </div>
+
+ 
+
+<!-- suggestion-div -->
+<div class="search-suggestions">
+
+
+  
+<div class="suggestion">
+
+  <div class="suggestion-cover-image">
+    <img src="" alt="">
+  </div>
+  
+  <div class="movie-name-div">
+    <p>The Family Star</p>
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+ <div class="movie-description">
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, cum.</p>
+ </div>
+
+</div>
+
+
+</div>
+
+
+  <!-- page 1 -->
+  <div class="page-style page1">
+    <h1 class="heading-page1">Welcome to Prime Video</h1>
+    <p>Join Prime to watch the latest movies, TV shows and award-<br> winning Amazon Originals</p>
+    <button class="Sign-in-button-page1">Sign in to join Prime</button>
+  </div>
+
+  <!-- page 2 -->
+  <div class="page-style page2">
+    <h1 class="heading-page1">Movie rentals on Prime Video</h1>
+    <p>Early Access to new movies, before digital subscription</p>
+    <button class="Sign-in-button-page1">Rent now</button>
+  </div>
+
+
+  <!-- page 3 -->
+
+  <div class="page3">
+
+    <div class="page3-left-part">
+      <div class="page3-left-part-heading">
+        <h1>Your favorite channels all</h1>
+        <h1>in one place</h1>
+      </div>
+
+
+      <div class="page3-left-part-para">
+        <p>With Prime Video Channels, find shows and </p>
+        <p>movies from your favorite channels all
+          in one </p>
+        <p>place. Enjoy with an add-on subscription to </p>
+        <p>Channels of your choice</p>
+      </div>
+
+    </div>
+    <div class="page3-right-part">
+
+      <!--  1st row -->
+      <div class="page3-right-part-first-row page3-images-div">
+        <!-- img1 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img1.jpg" alt="img1">
+        </div>
+
+        <!-- img2 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img2.jpg" alt="img2">
+        </div>
+
+        <!-- img3 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img3.jpg" alt="img3">
+        </div>
+
+      </div>
+
+      <!-- 2nd row -->
+      <div class="page3-right-part-second-div page3-images-div">
+
+        <!-- img4 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img4.jpg" alt="img4">
+        </div>
+        <!-- img5 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img5.jpg" alt="img5">
+        </div>
+
+        <!-- img6 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img6.jpg" alt="img6">
+        </div>
+
+      </div>
+
+
+      <!-- third row -->
+      <div class="page3-right-part-third-div page3-images-div">
+        <!-- img7 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img7.jpg" alt="img7">
+        </div>
+
+        <!-- img8 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img8.jpg" alt="img8">
+        </div>
+
+
+        <!-- img9 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img9.jpg" alt="img9">
+        </div>
+
+      </div>
+
+
+      <!-- fourth-row -->
+      <div class="page3-right-part-fourth-div page3-images-div">
+        <!-- img10 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img10.jpg" alt="img10">
+        </div>
+
+        <!-- img11 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img11.jpg" alt="img11">
+        </div>
+
+
+        <!-- img12 -->
+        <div class="image-div-page3">
+          <img src="./asserts/page3-img12.jpg" alt="img12">
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+<!-- footer  -->
+<div class="footer">
+  
+  <div class="first-row-footer-image">
+    <img src="./asserts/web_footer_logo._CB462908456_.png" alt="prime-vedeo">
+  </div>
+
+  <div class="second-row-footer">
+    <a href="">Terms and Privacy Notice</a>
+    <a href="">Send us feedback</a>
+    <a href="">Help</a>
+  </div>
+
+  <div class="third-row-footer">
+    <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+  </div>
+
+</div>
+
+  <!-- link font-awesome cdn -->
+  <script src="https://kit.fontawesome.com/f6567646c9.js" crossorigin="anonymous"></script>
+
+  <!-- link javaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
